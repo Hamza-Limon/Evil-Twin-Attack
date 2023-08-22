@@ -10,15 +10,23 @@ Evil Twin (Kötü İkiz) saldırısı temel olarak bir MITM (Man in the Middle �
 
 - İşte Evil Twin saldırısının çalışma şekli:
 
-##### Ağ Taklit Edilir: Saldırgan, hedefin bağlanmak istediği kablosuz ağı (örneğin, kafe, otel veya halka açık bir ağ) taklit etmek için aynı SSID (Service Set Identifier) adını kullanır. Bu, hedefin sahte ağı gerçek ağla karıştırmasını kolaylaştırır.
+#### Ağ Taklit Edilir: 
 
-##### Hedef Bağlanır: Hedef, cihazının kablosuz ağı arayarak ve bağlanmak istediği ağı seçerek sahte ağa bağlanır. Hedef, bu ağı gerçek kablosuz ağla karıştırabilir veya sahte ağın sinyali daha güçlü olduğu için otomatik olarak bağlanabilir.
+Saldırgan, hedefin bağlanmak istediği kablosuz ağı (örneğin, kafe, otel veya halka açık bir ağ) taklit etmek için aynı SSID (Service Set Identifier) adını kullanır. Bu, hedefin sahte ağı gerçek ağla karıştırmasını kolaylaştırır.
 
-##### Tüm Trafik Saldırgan Üzerinden Geçer: Hedef sahte ağa bağlandığında, tüm ağ trafiği sahte ağ üzerinden geçer. Saldırgan, bu trafiği izleyebilir, kaydedebilir veya manipüle edebilir.
+#### Hedef Bağlanır: 
 
-##### Giriş Bilgileri Çalınabilir: Eğer hedef, sahte ağ üzerinden giriş yapmaya çalışıyorsa (örneğin, bir web sitesine kullanıcı adı ve şifre ile giriş yapmaya çalışıyorsa), saldırgan bu giriş bilgilerini çalabilir.
+Hedef, cihazının kablosuz ağı arayarak ve bağlanmak istediği ağı seçerek sahte ağa bağlanır. Hedef, bu ağı gerçek kablosuz ağla karıştırabilir veya sahte ağın sinyali daha güçlü olduğu için otomatik olarak bağlanabilir.
 
-##### Evil Twin saldırıları, halka açık Wi-Fi ağlarının kullanılması durumunda özellikle tehlikeli olabilir çünkü bu tür ağlara bağlanan kullanıcılar, sahte ağı gerçek ağla karıştırabilirler.
+#### Tüm Trafik Saldırgan Üzerinden Geçer: 
+
+Hedef sahte ağa bağlandığında, tüm ağ trafiği sahte ağ üzerinden geçer. Saldırgan, bu trafiği izleyebilir, kaydedebilir veya manipüle edebilir.
+
+#### Giriş Bilgileri Çalınabilir: 
+
+Eğer hedef, sahte ağ üzerinden giriş yapmaya çalışıyorsa (örneğin, bir web sitesine kullanıcı adı ve şifre ile giriş yapmaya çalışıyorsa), saldırgan bu giriş bilgilerini çalabilir.
+
+#### Evil Twin saldırıları, halka açık Wi-Fi ağlarının kullanılması durumunda özellikle tehlikeli olabilir çünkü bu tür ağlara bağlanan kullanıcılar, sahte ağı gerçek ağla karıştırabilirler.
 
 > Bu tür saldırılardan korunmak için şu önlemleri alabilirsiniz:
 
