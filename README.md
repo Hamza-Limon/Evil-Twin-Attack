@@ -1,7 +1,7 @@
 # Evil-Twin-Attack
 
 <div align="center">
-	<img width="770" height='500' alt="image" src="https://github.com/Hamza-Limon/Evil-Twin-Attack/assets/140405710/290b67e5-c663-4389-801b-c4216a3ee103">
+	<img width="600" height='500' alt="image" src="https://github.com/Hamza-Limon/Evil-Twin-Attack/assets/140405710/290b67e5-c663-4389-801b-c4216a3ee103">
 </div>
 
 ### Evil-Twin Saldırısı:
